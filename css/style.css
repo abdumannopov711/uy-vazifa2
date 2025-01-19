@@ -11,7 +11,165 @@ body{
     min-height: 200vh;
 }
 .container{
+    width: 1500px;
     margin: 0 auto;
     padding-left: 5px;
     padding-right: 5px;
+}
+.header {
+    margin-top: 10px;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0d0d0d;
+    width: 1500px;
+    height: 80px;
+}
+.header__logo {
+    color: white;
+}
+.header__list {
+    display: flex;
+    gap: 40px;
+    margin-left: -250px;
+}
+.header__link {
+    color: white;
+}
+.header__btn {
+    width: 180px;
+    height: 56px;
+    border: none;
+    background-color: #ffd2a4;
+    border-radius: 12px;
+    color: #1c1d28;
+    font-size: 18px;
+}
+.header__headline {
+    text-align: center;
+    margin-top: 180px;
+    color: #a54e2b;
+    font-size: 12px;
+    font-weight: 700;
+}
+.header__title {
+    text-align: center;
+    margin-top: 20px;
+    color: #161722;
+    font-size: 50px;
+    font-weight: 700;
+}
+.header__text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #161722;
+}
+.header__img {
+    margin-top: 60px;
+    width: 1280px;
+    height: 510px;
+    margin-left: 110px;
+}
+
+
+.lorem {
+    margin-top: 100px;
+    margin-left: 366px;
+}
+.lorem__title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #161722;
+}
+.lorem__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #161722;
+}
+.lorem__img {
+    width: 768px;
+    height: 437px;
+}
+.lorem__subject {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #161722;
+}
+.lorem__heading {
+    font-size: 24px;
+    font-weight: 400;
+    color: #161722;
+}
+.lorem__box {
+    display: flex;
+    gap: 20px;
+}
+.lorem__icon{
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+
+.latest{
+    margin-top: 150px;
+    background-color: #161722;
+    width: 100%;
+    height: 312px;
+    padding: 30px 0px;
+}
+.latest__general{
+    display: flex;
+    justify-content: space-around;
+}
+.latest__logo{
+    color: #ffd2a4;
+}
+.latest__headline{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.latest__link{
+    font-size: 13px;
+    color: white;
+}
+.latest__subject{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-top: 40px;
+}
+.latest__icon{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+.latest__title{
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+}
+input{
+    font-size: 16px;
+    width: 300px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+}
+.latest__btn{
+    width: 180px;
+    height: 62px;
+    border-radius: 12px;
+    background-color: #ffd2a4;
+    border: none;
+    color: #0d0d0d;
+    font-size: 18px;
+    margin-left: -30px;
 }
